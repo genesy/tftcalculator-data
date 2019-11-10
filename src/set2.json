@@ -1,0 +1,429 @@
+[
+  {
+    "name": "B. F. Sword",
+    "game_description": "+20 Attack Damage",
+    "stat": {
+      "ad": 20
+    }
+  },
+  {
+    "name": "Recurve Bow",
+    "game_description": "+20% Attack Speed",
+    "stat": {
+      "as": 20
+    }
+  },
+  {
+    "name": "Needlessly Large Rod",
+    "game_description": "+20% Spell Damage",
+    "stat": {
+      "ap": 20
+    }
+  },
+  {
+    "name": "Tear of the Goddess",
+    "game_description": "+20 Mana",
+    "stat": {
+      "mana": 20
+    }
+  },
+  {
+    "name": "Chain Vest",
+    "game_description": "+20 Armor",
+    "stat": {
+      "armor": 20
+    }
+  },
+  {
+    "name": "Negatron Cloak",
+    "game_description": "+20 Magic Resist",
+    "stat": {
+      "mr": 20
+    }
+  },
+  {
+    "name": "Giant's Belt",
+    "game_description": "+200 Health",
+    "stat": {
+      "hp": 200
+    }
+  },
+  {
+    "name": "Spatula",
+    "game_description": "It must do something...",
+    "stat": {}
+  },
+  {
+    "name": "Sparring Gloves",
+    "game_description": "+10% Critical Chance. +10% Dodge Chance.",
+    "stat": {
+      "crit": 10,
+      "dodge": 10
+    }
+  },
+  {
+    "name": "Deathblade",
+    "game_description": "Whenever the wearer kills or participates in killing an enemy, gain +15 Attack Damage for the remainder of combat. This effect can stack any number of times.",
+    "combination": [
+      "B. F. Sword",
+      "B. F. Sword"
+    ]
+  },
+  {
+    "name": "Last Whisper",
+    "game_description": "Attacks can't miss (removed from RFC btw) and deal True Damage equal to 5% of the target's maximum health",
+    "combination": [
+      "B. F. Sword",
+      "Recurve Bow"
+    ]
+  },
+  {
+    "name": "Hextech Gunblade",
+    "game_description": "Heal for 33% of all damage dealt",
+    "combination": [
+      "B. F. Sword",
+      "Needlessly Large Rod"
+    ]
+  },
+  {
+    "name": "Spear of Shojin",
+    "game_description": "After casting, wearer gains 20% of its max mana per attack",
+    "combination": [
+      "B. F. Sword",
+      "Tear of the Goddess"
+    ]
+  },
+  {
+    "name": "Guardian Angel",
+    "game_description": "Wearer revives with 1000 Health",
+    "combination": [
+      "B. F. Sword",
+      "Chain Vest"
+    ]
+  },
+  {
+    "name": "The Bloodthirster",
+    "game_description": "Attacks heal for 50% of damage",
+    "combination": [
+      "B. F. Sword",
+      "Negatron Cloak"
+    ]
+  },
+  {
+    "name": "Zeke's Herald",
+    "game_description": "Allies 2 spaces to the left and right gain 15% attack speed",
+    "combination": [
+      "B. F. Sword",
+      "Giant's Belt"
+    ]
+  },
+  {
+    "name": "Youmuu's Ghostblade",
+    "game_description": "Wearer is also an Assassin",
+    "trait": "assassin",
+    "combination": [
+      "B. F. Sword",
+      "Spatula"
+    ]
+  },
+  {
+    "name": "Infinity Edge",
+    "game_description": "Critical Strikes deal +100% damage",
+    "combination": [
+      "B. F. Sword",
+      "Sparring Gloves"
+    ]
+  },
+  {
+    "name": "Rapid Firecannon",
+    "game_description": "Wearer's attacks cannot be dodged. Attack Range is doubled",
+    "combination": [
+      "Recurve Bow",
+      "Recurve Bow"
+    ]
+  },
+  {
+    "name": "Guinsoo's Rageblade",
+    "game_description": "Attacks grant 4% Attack Speed. Stacks Infinely",
+    "combination": [
+      "Recurve Bow",
+      "Needlessly Large Rod"
+    ]
+  },
+  {
+    "name": "Statikk Shiv",
+    "game_description": "Every 3rd attack deals 100 splash magical damage",
+    "combination": [
+      "Recurve Bow",
+      "Tear of the Goddess"
+    ]
+  },
+  {
+    "name": "Phantom Dancer",
+    "game_description": "Wearer dodges all Critical Strikes",
+    "combination": [
+      "Recurve Bow",
+      "Chain Vest"
+    ]
+  },
+  {
+    "name": "Cursed Blade",
+    "game_description": "Attacks have a 20% chance to Shrink(Reduce enemy's star level by 1)",
+    "combination": [
+      "Recurve Bow",
+      "Negatron Cloak"
+    ]
+  },
+  {
+    "name": "Titanic Hydra",
+    "game_description": "Attacks deal 10% of the wearer's max Health as splash damage",
+    "combination": [
+      "Recurve Bow",
+      "Giant's Belt"
+    ]
+  },
+  {
+    "name": "Blade of the Ruined King",
+    "game_description": "Wearer is also a Blademaster",
+    "trait": "blademaster",
+    "combination": [
+      "Recurve Bow",
+      "Spatula"
+    ]
+  },
+  {
+    "name": "Rabadon's Deathcap",
+    "game_description": "Wearer's Spell Damage stat is amplified by 50%",
+    "combination": [
+      "Needlessly Large Rod",
+      "Needlessly Large Rod"
+    ]
+  },
+  {
+    "name": "Luden's Echo",
+    "game_description": "Spells deal 200 splash damage on hit",
+    "combination": [
+      "Needlessly Large Rod",
+      "Tear of the Goddess"
+    ]
+  },
+  {
+    "name": "Locket of the Iron Solari",
+    "game_description": "On start of combat, all adjacent allies gain a shield of 300",
+    "combination": [
+      "Needlessly Large Rod",
+      "Chain Vest"
+    ]
+  },
+  {
+    "name": "Ionic Spark",
+    "game_description": "Whenever an enemy casts a spell, they take 100 damage",
+    "combination": [
+      "Needlessly Large Rod",
+      "Negatron Cloak"
+    ]
+  },
+  {
+    "name": "Morellonomicon",
+    "game_description": "Spells deal burn damage equal to 3% of the enemy's maximum health per second",
+    "combination": [
+      "Needlessly Large Rod",
+      "Giant's Belt"
+    ]
+  },
+  {
+    "name": "Inferno Cinder",
+    "game_description": "Wearer is also an Inferno",
+    "combination": [
+      "Needlessly Large Rod",
+      "Spatula"
+    ]
+  },
+  {
+    "name": "Seraph's Embrace",
+    "game_description": "Regain 20 mana each time a spell is cast",
+    "combination": [
+      "Tear of the Goddess",
+      "Tear of the Goddess"
+    ]
+  },
+  {
+    "name": "Frozen Heart",
+    "game_description": "Adjacent enemies lose 20% Attack Speed",
+    "combination": [
+      "Tear of the Goddess",
+      "Chain Vest"
+    ]
+  },
+  {
+    "name": "Hush",
+    "game_description": "Attacks have 30% chance to Silence",
+    "combination": [
+      "Tear of the Goddess",
+      "Negatron Cloak"
+    ]
+  },
+  {
+    "name": "Redemption",
+    "game_description": "When less than 25% health, heal all nearby allies for 1000 Health",
+    "combination": [
+      "Tear of the Goddess",
+      "Giant's Belt"
+    ]
+  },
+  {
+    "name": "Mage's Cap",
+    "game_description": "Wearer is also a Mage",
+    "trait": "mage",
+    "combination": [
+      "Tear of the Goddess",
+      "Spatula"
+    ]
+  },
+  {
+    "name": "Thornmail",
+    "game_description": "Reflect 100% of physical damage mitigated. Damage type: True Damage",
+    "combination": [
+      "Chain Vest",
+      "Chain Vest"
+    ]
+  },
+  {
+    "name": "Sword Breaker",
+    "game_description": "Attacks have a 20% chance to disarm",
+    "combination": [
+      "Chain Vest",
+      "Negatron Cloak"
+    ]
+  },
+  {
+    "name": "Red Buff",
+    "game_description": "Attacks deal 2.5% burn damage",
+    "combination": [
+      "Chain Vest",
+      "Giant's Belt"
+    ]
+  },
+  {
+    "name": "Warden's Mail",
+    "game_description": "Wearer is also a Warden",
+    "trait": "warden",
+    "combination": [
+      "Chain Vest",
+      "Spatula"
+    ]
+  },
+  {
+    "name": "Dragon's Claw",
+    "game_description": "Gain 83% resistance to magic",
+    "combination": [
+      "Negatron Cloak",
+      "Negatron Cloak"
+    ]
+  },
+  {
+    "name": "Zephyr",
+    "game_description": "On start of combat, banish an enemy for 5 seconds",
+    "combination": [
+      "Negatron Cloak",
+      "Giant's Belt"
+    ]
+  },
+  {
+    "name": "Talisman of Light",
+    "game_description": "Wearer is also a Light.",
+    "combination": [
+      "Negatron Cloak",
+      "Spatula"
+    ]
+  },
+  {
+    "name": "Warmog's Armor",
+    "game_description": "Wearer regenerates 6% of missing Health per second",
+    "combination": [
+      "Giant's Belt",
+      "Giant's Belt"
+    ]
+  },
+  {
+    "name": "Frozen Mallet",
+    "game_description": "Wearer is also a Glacial",
+    "trait": "glacial",
+    "combination": [
+      "Spatula",
+      "Giant's Belt"
+    ]
+  },
+  {
+    "name": "Force of Nature",
+    "game_description": "Gain +1 team size",
+    "combination": [
+      "Spatula",
+      "Spatula"
+    ]
+  },
+  {
+    "name": "Repeating Crossbow",
+    "game_description": "When the wearer dies, Repeating Crossbow is re-equipped to a new ally. Each time Repeating Crossbow is re-equipped, it grants additional +20% Attack Speed and +20% Critical Strike Chance for the remainder of combat. This effect can stack any number of times.",
+    "combination": [
+      "Sparring Gloves",
+      "Recurve Bow"
+    ]
+  },
+  {
+    "name": "Jeweled Gauntlet",
+    "game_description": "The wearer's spells can critically strike.",
+    "combination": [
+      "Sparring Gloves",
+      "Needlessly Large Rod"
+    ]
+  },
+  {
+    "name": "Hand of Justice",
+    "game_description": "At the beginning of each planning phase, the wearer gains one of the following: Basic Attacks and spells deal +40% Damage or Basic Attacks heal 40 Health on-hit.",
+    "combination": [
+      "Sparring Gloves",
+      "Tear of the Goddess"
+    ]
+  },
+  {
+    "name": "Iceborne Gauntlet",
+    "game_description": "When the wearer dodges, they create a zone of ice. Enemies inside the zone have their Attack Speed reduced by 35%.",
+    "combination": [
+      "Sparring Gloves",
+      "Chain Vest"
+    ]
+  },
+  {
+    "name": "Quicksilver",
+    "game_description": "The wearer gains a shield that prevents the next crowd control effect from applying. This shield refreshes after 3 seconds.",
+    "combination": [
+      "Sparring Gloves",
+      "Negatron Cloak"
+    ]
+  },
+  {
+    "name": "Trap Claw",
+    "game_description": "At the beginning of combat, the wearer gains a shield that blocks the first enemy spell that hits them. The enemy that breaks the shield is stunned for 5 seconds.",
+    "combination": [
+      "Sparring Gloves",
+      "Giant's Belt"
+    ]
+  },
+  {
+    "name": "Berserker Axe",
+    "game_description": "Wearer is also a Berserker.",
+    "combination": [
+      "Sparring Gloves",
+      "Spatula"
+    ]
+  },
+  {
+    "name": "Thief's Gloves",
+    "game_description": "At the beginning of each planning phase, the wearer equips 2 temporary items. Temporary items increase in power based on your player level.",
+    "combination": [
+      "Sparring Gloves",
+      "Sparring Gloves"
+    ]
+  }
+]
