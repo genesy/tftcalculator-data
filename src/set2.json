@@ -315,7 +315,7 @@
   },
   {
     "name": "Dragon's Claw",
-    "game_description": "Gain 83% resistance to magic",
+    "game_description": "Wearer gains 50% resistance to magic damage",
     "combination": [
       "Negatron Cloak",
       "Negatron Cloak"
