@@ -70,8 +70,8 @@
     ]
   },
   {
-    "name": "Last Whisper",
-    "game_description": "Attacks can't miss (removed from RFC btw) and deal True Damage equal to 5% of the target's maximum health",
+    "name": "Giant Slayer",
+    "game_description": "The wearer's basic attacks deal an additional 5% of the target's Maximum Health as true damage.",
     "combination": [
       "B. F. Sword",
       "Recurve Bow"
@@ -167,8 +167,8 @@
     ]
   },
   {
-    "name": "Cursed Blade",
-    "game_description": "Attacks have a 20% chance to Shrink(Reduce enemy's star level by 1)",
+    "name": "Runaan's Hurricane",
+    "game_description": "Basic Attacks fire an additional missile at another nearby enemy, dealing 60% of the wearer's Attack damage and applying on-hit effects.",
     "combination": [
       "Recurve Bow",
       "Negatron Cloak"
@@ -294,7 +294,7 @@
     "combination": [
       "Chain Vest",
       "Negatron Cloak"
-    ]
+  ]
   },
   {
     "name": "Red Buff",
